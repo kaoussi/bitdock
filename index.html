@@ -10,38 +10,27 @@
   <body>
     <div class="header-arrow"></div>
     <div class="window">
-      <header class="toolbar toolbar-header">
-        <h1 class="title">Bitdock<span class="js-update-time"></span></h1>
-      </header>
-
-      <div class="tab-group">
-        <div class="tab-item" data-currency="EUR">
-          <span class="icon"></span>
-          🇪🇺
-        </div>
-        <div class="tab-item active" data-currency="USD">
-          <span class="icon"></span>
-          🇺🇸
-        </div>
-        <div class="tab-item" data-currency="GBP">
-          <span class="icon"></span>
-          🇬🇧
-        </div>
-        <div class="tab-item" data-currency="AUD">
-          <span class="icon"></span>
-          🇦🇺
-        </div>
-      </div>
-
-      <div class="update">
-        A new update is available. <a href="https://github.com/chrisunderdown/bitdock/releases">Download now</a>
-      </div>
 
       <div class="window-content">
         <div class="pane">
 
           <div class="summary js-summary">Loading&hellip;</div>
 
+          <div class="coin" data-coin="XRP">
+
+            <div class="column">
+              <div class="reading"><div class="circle XRP"></div> XRP</div>
+              <div class="description light">Ripple</div>
+            </div>
+
+            <div class="column">
+              <div class="rates"><span>USD</span><div class="XRP-js-usd value">&nbsp;</div></div>
+              <!-- <div class="rates"><span>GBP</span><div class="XRP-js-gbp value">&nbsp;</div></div>
+              <div class="rates"><span>EUR</span><div class="XRP-js-eur value">&nbsp;</div></div>
+              <div class="rates"><span>AUD</span><div class="XRP-js-aud value">&nbsp;</div></div> -->
+            </div>
+
+          </div>
 
           <div class="coin active" data-coin="BTC">
 
@@ -52,9 +41,9 @@
 
             <div class="column">
               <div class="rates"><span>USD</span><div class="BTC-js-usd value">&nbsp;</div></div>
-              <div class="rates"><span>GBP</span><div class="BTC-js-gbp value">&nbsp;</div></div>
+              <!-- <div class="rates"><span>GBP</span><div class="BTC-js-gbp value">&nbsp;</div></div>
               <div class="rates"><span>EUR</span><div class="BTC-js-eur value">&nbsp;</div></div>
-              <div class="rates"><span>AUD</span><div class="BTC-js-aud value">&nbsp;</div></div>
+              <div class="rates"><span>AUD</span><div class="BTC-js-aud value">&nbsp;</div></div> -->
             </div>
 
           </div>
@@ -68,9 +57,9 @@
 
             <div class="column">
               <div class="rates"><span>USD</span><div class="ETH-js-usd value">&nbsp;</div></div>
-              <div class="rates"><span>GBP</span><div class="ETH-js-gbp value">&nbsp;</div></div>
+              <!-- <div class="rates"><span>GBP</span><div class="ETH-js-gbp value">&nbsp;</div></div>
               <div class="rates"><span>EUR</span><div class="ETH-js-eur value">&nbsp;</div></div>
-              <div class="rates"><span>AUD</span><div class="ETH-js-aud value">&nbsp;</div></div>
+              <div class="rates"><span>AUD</span><div class="ETH-js-aud value">&nbsp;</div></div> -->
             </div>
 
           </div>
@@ -84,14 +73,14 @@
 
             <div class="column">
               <div class="rates"><span>USD</span><div class="LTC-js-usd value">&nbsp;</div></div>
-              <div class="rates"><span>GBP</span><div class="LTC-js-gbp value">&nbsp;</div></div>
+              <!-- <div class="rates"><span>GBP</span><div class="LTC-js-gbp value">&nbsp;</div></div>
               <div class="rates"><span>EUR</span><div class="LTC-js-eur value">&nbsp;</div></div>
-              <div class="rates"><span>AUD</span><div class="LTC-js-aud value">&nbsp;</div></div>
+              <div class="rates"><span>AUD</span><div class="LTC-js-aud value">&nbsp;</div></div> -->
             </div>
 
           </div>
 
-          <div class="coin" data-coin="DASH">
+          <!-- <div class="coin" data-coin="DASH">
 
             <div class="column">
               <div class="reading"><div class="circle DASH"></div> DASH</div>
@@ -105,9 +94,9 @@
               <div class="rates"><span>AUD</span><div class="DASH-js-aud value">&nbsp;</div></div>
             </div>
 
-          </div>
+          </div> -->
 
-          <div class="coin" data-coin="ZEC">
+          <!-- <div class="coin" data-coin="ZEC">
 
             <div class="column">
               <div class="reading"><div class="circle ZEC"></div> ZEC</div>
@@ -121,27 +110,7 @@
               <div class="rates"><span>AUD</span><div class="ZEC-js-aud value">&nbsp;</div></div>
             </div>
 
-          </div>
-
-          <div class="coin" data-coin="XRP">
-
-            <div class="column">
-              <div class="reading"><div class="circle XRP"></div> XRP</div>
-              <div class="description light">Ripple</div>
-            </div>
-
-            <div class="column">
-              <div class="rates"><span>USD</span><div class="XRP-js-usd value">&nbsp;</div></div>
-              <div class="rates"><span>GBP</span><div class="XRP-js-gbp value">&nbsp;</div></div>
-              <div class="rates"><span>EUR</span><div class="XRP-js-eur value">&nbsp;</div></div>
-              <div class="rates"><span>AUD</span><div class="XRP-js-aud value">&nbsp;</div></div>
-            </div>
-
-          </div>
-
-
-
-
+          </div> -->
 
         </div>
       </div>
@@ -149,7 +118,7 @@
       <footer class="toolbar toolbar-footer">
 
         <div class="footer-link">
-          Made by <a href="http://twitter.com/chrisunderdown">@chrisunderdown</a>
+          Originally Made by <a href="http://twitter.com/chrisunderdown">@chrisunderdown</a>
         </div>
 
         <div class="toolbar-actions pull-right">
