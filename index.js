@@ -1,5 +1,5 @@
 const {ipcRenderer, shell} = require('electron')
-var coins = ['BTC','ETH', 'LTC', 'DASH', 'ZEC', 'XRP']
+var coins = ['BTC','ETH', 'LTC', 'DASH', 'ZEC', 'XRP', 'XRB']
 var currency = 'USD'
 var usercrypto = 'BTC'
 
